@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, useReducer } from 'react';
-import { bookReducer } from '../../reducers/bookReducer';
+import { bookReducer } from '../reducers/bookReducer';
 // import uuid from 'react-uuid';
 
 export const BookContext = createContext();
